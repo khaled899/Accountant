@@ -1,0 +1,185 @@
+.rtl {
+  direction: rtl !important;
+}
+
+/* Navbar */
+.header-main .main-menu ul li {
+  margin-inline-end: 40px;
+}
+
+/* Any button */
+.theme-btn {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.theme-btn-ar {
+  display: inline-block;
+}
+
+/* Hero section in Home */
+
+.hero-1 .hero-image {
+  margin-right: 0;
+}
+
+/* About Us */
+.about-wrapper {
+  direction: ltr;
+}
+
+.about-content {
+  direction: rtl;
+}
+
+/* Services */
+.service-main-items .service-card {
+  margin-left: -100px;
+  margin-right: 0px;
+}
+
+.process-wrapper {
+  direction: ltr;
+}
+
+.process-wrapper-ar{
+  direction: rtl;
+
+} .process-ber {
+  direction: rtl;
+}
+
+.line-shape {
+  right: 20px;
+}
+
+.section-title {
+  text-align: right;
+}
+
+.array-button {
+  flex-direction: row-reverse;
+}
+
+.faq-wrapper .faq-content .accordion-item .accordion-collapse .accordion-body {
+  padding-right: 0;
+}
+
+#email {
+  direction: rtl !important;
+}
+
+.faq-wrapper .faq-content .accordion-item .accordion-collapse .accordion-body {
+  margin-top: 0;
+}
+
+.accordion-button::after {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.work-process-wrapper .work-process-items span::before {
+  right: -40px;
+}
+
+.feature-main-area .feature-card-item2 .feature-image::before {
+  right: 21%;
+}
+
+/* news-details */
+.section-padding-ar {
+  direction: ltr;
+}
+
+.news-post-details {
+  direction: rtl;
+}
+
+.single-sidebar-widget {
+  direction: rtl;
+
+}
+
+.search-widget {
+  direction: ltr;
+
+}
+
+/* portfilo details */
+
+.portfolio-details-wrapper {
+  direction: rtl;
+}
+
+.header-1 .main-logo {
+  position: absolute;
+  right: 70px;
+  top: 0;
+}
+
+.header-1 .countact-call {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  left: 50px;
+  right: unset;
+  top: 0;
+}
+
+.section-title-area-ar {
+  flex-direction: row
+}
+
+.section-title-area-ar-home {
+  flex-direction: row-reverse
+}
+
+.section-title-area-ar-courses {
+  flex-direction: row-reverse
+}
+
+.arow-ar {
+  flex-direction: row;
+}
+
+.contact-info-area .search-widget button {
+  position: absolute;
+  left: 4px;
+  right: unset;
+  top: 4px;
+  bottom: 4px;
+}
+
+.main-sideber .single-sidebar-widget .search-widget form input {
+
+  display: flex;
+  flex-direction: row-reverse;
+  direction: rtl;
+}
+
+.main-sideber .single-sidebar-widget .search-widget form button {
+  left: -2px;
+  right: unset;
+}
+
+.breadcrumb-wrapper .page-heading .breadcrumb-list {
+  direction: ltr;
+}
+
+.array-button-ar {
+  flex-direction: row;
+}
+
+.testimonial-wrapper .Testimonial-box-items-ar {
+  direction: rtl;
+}
+
+.service-box-items-ar {
+  text-align: right;
+}
+
+.project-card-items:hover .project-image .project-content-ar {
+  text-align: right;
+
+}
